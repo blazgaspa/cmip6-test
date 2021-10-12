@@ -1,43 +1,20 @@
-name: pangeo
+name: blaz_env
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.6
-  - rasterio
-  - numpy
-  - scipy
-  - pandas
-  - xarray
-  - matplotlib
-  - dask
-  - distributed
-  - gcsfs
-  - intake
-  - intake-xarray
-  - s3fs
-  - scikit-image
-  - scikit-learn
-  - dask-ml
-  - bokeh
-  - holoviews
-  - panel
-  - geoviews
-  - hvplot
-  - rasterio
-  - geoviews
-  - datashader
-  - netcdf4
-  - zarr
-  - numcodecs
-  - python-blosc
-  - lz4
-  - nbserverproxy
-  - jupyter
-  - jupyterlab=0.35
-  - ipywidgets
-  - ipyleaflet
-  - graphviz
-  - dask-gateway==0.7.1
-  - pip:
-    - git+https://github.com/xgcm/xgcm.git
-    - git+https://github.com/pydata/xarray.git
+  - dask=2021.9.1
+  - dask-core=2021.9.1
+  - esmf=8.1.1
+  - esmpy=8.1.1
+  - matplotlib=3.4.3
+  - matplotlib-base=3.4.3
+  - matplotlib-inline=0.1.3
+  - numpy=1.21.2
+  - pandas=1.3.3
+  - scipy=1.7.1
+  - xarray=0.19.0
+  - xesmf=0.6.1
+  - yaml=0.2.5
+  - zarr=2.10.1
+prefix: /Users/Blaz/opt/anaconda3/envs/blaz_env
