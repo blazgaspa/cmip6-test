@@ -7,6 +7,7 @@ dependencies:
   - dask-core=2021.9.1
   - esmf=8.1.1
   - esmpy=8.1.1
+  - gcsfs=2021.10.0
   - matplotlib=3.4.3
   - matplotlib-base=3.4.3
   - matplotlib-inline=0.1.3
